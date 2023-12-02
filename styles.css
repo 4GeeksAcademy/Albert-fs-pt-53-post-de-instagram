@@ -4,11 +4,11 @@ body {
 }
 
 .post-container {
-    max-width: 32rem; /* max-w-sm */
-    margin: 2.5rem auto; /* my-10 mx-auto */
-    background-color: #ffffff; /* bg-white */
-    border-radius: 0.5rem; /* rounded-lg */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* shadow-md */
+    max-width: 32rem; 
+    margin: 2.5rem auto; 
+    background-color: #ffffff; 
+    border-radius: 0.5rem; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
     overflow: hidden;
 }
 
@@ -26,45 +26,47 @@ body {
 }
 
 .user-image {
-    height: 2rem; /* h-8 */
-    width: 2rem; /* w-8 */
-    border-radius: 9999px; /* rounded-full */
+    height: 3rem; 
+    width: 3rem; 
+    border-radius: 9999px; 
     object-fit: cover;
 }
 
 .user-details {
-    margin-left: 0.75rem; /* ml-3 */
+    margin-left: 0.75rem;
 }
 
 .user-name {
-    font-size: 0.875rem; /* text-sm */
-    font-weight: 600; /* font-semibold */
-    color: #2d3748; /* text-gray-800 */
+    font-size: 0.875rem;
+    font-weight: 600; 
+    color: #000000; 
 }
 
 .user-status {
-    font-size: 0.75rem; /* text-xs */
-    color: #718096; /* text-gray-600 */
+    font-size: 0.75rem; 
+    color: #718096; 
 }
 
-.options-icon {
-    color: #718096; /* text-gray-600 */
-}
 
 .post-img {
     width: 100%;
     height: auto;
-    border-top-right-radius: 0.25rem;
-    border-top-left-radius: 0.25rem;
+}
+
+.options-icon {
+    padding-right: 1rem;
+}
+
+.bookmark-icon {
+    padding-right: 0.3rem;
 }
 
 .post-icons {
     padding: 0.5rem;
-    border-bottom: 1px solid #e5e7eb;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #718096;
+    color: #000000;
 }
 
 .icons-left {
@@ -78,6 +80,6 @@ body {
 
 .post-body {
     padding: 0.5rem;
-    color: #2d3748; /* text-gray-800 */
-    font-size: 0.875rem; /* text-sm */
+    color: #2d3748; 
+    
 }

@@ -4,16 +4,13 @@ body {
 }
 
 .post-container {
-    max-width: 32rem; 
+    max-width: 38rem; 
     margin: 2.5rem auto; 
-    background-color: #ffffff; 
     border-radius: 0.5rem; 
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
-    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .post-header {
-    background-color: #f3f4f6;
     padding: 0.5rem;
     display: flex;
     justify-content: space-between;
@@ -39,7 +36,6 @@ body {
 .user-name {
     font-size: 0.875rem;
     font-weight: 600; 
-    color: #000000; 
 }
 
 .verify-check {
@@ -71,7 +67,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #000000;
 }
 
 .icons-left {
@@ -79,12 +74,6 @@ body {
     gap: 10px;
 }
 
-.bookmark-icon {
-    color: #000000
-}
-
 .post-body {
     padding: 0.5rem;
-    color: #2d3748; 
-    
 }

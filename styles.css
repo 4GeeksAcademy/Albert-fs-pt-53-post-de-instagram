@@ -47,7 +47,7 @@ body {
     color: #718096; /* text-gray-600 */
 }
 
-.options-button {
+.options-icon {
     color: #718096; /* text-gray-600 */
 }
 
@@ -69,10 +69,11 @@ body {
 
 .icons-left {
     display: flex;
+    gap: 10px;
 }
 
-.bookmark-button {
-    color: #718096;
+.bookmark-icon {
+    color: #000000
 }
 
 .post-body {

@@ -42,6 +42,11 @@ body {
     color: #000000; 
 }
 
+.verify-check {
+    padding-left: 0.3rem;
+    color: #0095F6;
+}
+
 .user-status {
     font-size: 0.75rem; 
     color: #718096; 
